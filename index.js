@@ -3,7 +3,7 @@ import bodyParser from "body-parser";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import cors from "cors";
-const port = 4000;
+const port = process.env.PORT || 4000;
 import authRoutes from "./Routers/routers.js";
 import db from "./Config/mongoose.js";
 
