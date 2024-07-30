@@ -25,5 +25,5 @@ app.listen(port, (err) => {
     console.log("Error in running server");
   } else {
     console.log("Server running successfully on port no", port);
-  }
+  };
 });
